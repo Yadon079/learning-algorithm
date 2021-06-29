@@ -1,4 +1,4 @@
-# Algorithm & Data Structure
+# Algorithm
 
 * 브랜치명은 자신의 이름으로 한다 (ex. Sunwoo-Han)
 * 자신의 브랜치에만 커밋한다
