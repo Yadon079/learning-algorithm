@@ -1,6 +1,6 @@
 # Algorithm & Data Structure
 
-* 브랜치명은 자신의 이름으로 한다 (ex. Changhun-Han)
+* 브랜치명은 자신의 이름으로 한다 (ex. Sunwoo-Han)
 * 자신의 브랜치에만 커밋한다
 * 1문제당 1커밋을 원칙으로 한다
 * 커밋 메시지는 간결하고 명확하게 작성한다
