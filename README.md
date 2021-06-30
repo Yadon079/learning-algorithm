@@ -36,11 +36,11 @@ git remote -r
 * 자신의 저장소 가져가기
 
 ```
-git remote -t origin/<branch>
+git checkout -t origin/<branch>
 ```
 
 # Example
 
 ```
-git remote -t origin/Sunwoo-Han
+git checkout -t origin/Sunwoo-Han
 ```
