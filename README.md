@@ -17,3 +17,30 @@ feat(sunwoo): [BOJ, 2557] Hello World
 
 https://www.acmicpc.net/problem/2557
 ```
+
+
+# Git remote branch 가져가는 법
+
+* git repo clone 하기
+
+```
+git clone https://github.com/Yadon079/learning-algorithm
+```
+
+* git remote 저장소 확인
+
+```
+git remote -r
+```
+
+* 자신의 저장소 가져가기
+
+```
+git remote -t origin/<branch>
+```
+
+# Example
+
+```
+git remote -t origin/Sunwoo-Han
+```
