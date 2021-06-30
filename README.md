@@ -27,13 +27,13 @@ https://www.acmicpc.net/problem/2557
 git clone https://github.com/Yadon079/learning-algorithm
 ```
 
-* git remote 저장소 확인
+* git remote branch 확인
 
 ```
 git remote -r
 ```
 
-* 자신의 저장소 가져가기
+* 자신의 저장소(브랜치) 가져가기
 
 ```
 git checkout -t origin/<branch>
