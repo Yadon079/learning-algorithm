@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class heapBiggestNum {
+public class sortBiggestNum {
 
   public String solution(int[] numbers) {
     String answer = "";
