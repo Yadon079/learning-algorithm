@@ -3,7 +3,7 @@ import java.io.*;
 
 public class boj_1463 {
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     int n = Integer.parseInt(br.readLine());
