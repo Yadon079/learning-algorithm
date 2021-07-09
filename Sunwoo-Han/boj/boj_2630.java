@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 public class boj_2630 {
 
@@ -24,6 +23,7 @@ public class boj_2630 {
 
     System.out.println(white);
     System.out.println(blue);
+    sc.close();
   }
 
   public static void partition(int row, int col, int size) {

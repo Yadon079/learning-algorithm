@@ -40,5 +40,7 @@ public class boj_21918 {
     for(int i = 0; i < n; i++) {
       System.out.print(blub[i] + " ");
     }
+    
+    sc.close();
   }
 }
