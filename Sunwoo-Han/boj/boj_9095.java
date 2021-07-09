@@ -22,5 +22,6 @@ public class boj_9095 {
       System.out.println(dp[n]);
     }
 
+    sc.close();
   }
 }
