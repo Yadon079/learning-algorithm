@@ -44,3 +44,26 @@ git checkout -t origin/<branch>
 ```
 git checkout -t origin/Sunwoo-Han
 ```
+
+
+# PR 하는 법
+
+* PR은 매주 일요일 오후 10시까지 요청
+* 제목은 아래와 같은 양식으로 한다
+
+```
+Weekly Pull Request - [이름]
+```
+
+* 내용은 아래와 같은 양식으로 한다
+
+```
+## ☑️Weekly Pull Request
+* Name : [이름]
+* Github : [깃허브 이메일 주소]
+* Date : [YYYY-MM-DD]
+```
+
+# Example
+
+<img>
