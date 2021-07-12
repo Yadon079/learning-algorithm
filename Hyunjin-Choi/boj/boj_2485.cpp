@@ -40,7 +40,7 @@ int main(){
     diffsum += (trees[i] - trees[i-1]);
   }
   sort(diffs.begin(), diffs.end());
-  cout << "diffs : ";
+//  cout << "diffs : ";
 
 //   for(auto i = diffs.begin(); i < diffs.end(); i++){ // 출력확인
 //     cout << *i << ' ';
@@ -49,7 +49,7 @@ int main(){
   cout << "size :" << diffs.size() << endl;
   cout << '\n';
   gcd = getGCD(diffs);
-  cout << gcd << '\n';
+//  cout << gcd << '\n';
 
   int res = (diffsum/gcd) - tree + 1;
   cout << res;
