@@ -66,4 +66,4 @@ Weekly Pull Request - [이름]
 
 # Example
 
-<img>
+<img src="./img/PRSample.png" width="70%" align="center">
