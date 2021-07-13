@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class bpMockexam {
+public class bfMockexam {
 
   public int[] solution(int[] answers) {
     int[] answer = {};
