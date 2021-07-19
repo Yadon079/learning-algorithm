@@ -30,7 +30,7 @@ git clone https://github.com/Yadon079/learning-algorithm
 * git remote branch 확인
 
 ```
-git remote -r
+git branch -r
 ```
 
 * 자신의 저장소(브랜치) 가져가기
