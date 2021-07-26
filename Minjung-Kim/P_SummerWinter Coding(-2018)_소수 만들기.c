@@ -12,7 +12,7 @@ int solution(int nums[], size_t nums_len) {
     int  num=0;
     for(int f=0;f<nums_len;f++)
     {
-        for(int s=f+1;s<nums_len;s++)
+        for(int s=f+1;s<nums_len;s++) 
         {
             for(int t=s+1;t<nums_len;t++)
             {
