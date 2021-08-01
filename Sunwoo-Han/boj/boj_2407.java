@@ -1,7 +1,7 @@
 import java.math.*;
 import java.util.*;
 
-public class Main {
+public class boj_2407 {
 
   public static BigInteger[][] dp;
 
@@ -30,6 +30,7 @@ public class Main {
     setDpCombination(n, m);
 
     System.out.println(dp[n][m]);
+    sc.close();
   }
 
 }
