@@ -5,6 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
+/* 
+이중 배열로 풀던데 연구해봐야할 듯
+*/
 public class boj_11725 {
 
   static int[] parents;
