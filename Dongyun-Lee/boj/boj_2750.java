@@ -25,6 +25,6 @@ public class boj_2750 {
         for (int num : arr) {
             System.out.println(num);
         }
-        sc.close();
+
     }
 }
