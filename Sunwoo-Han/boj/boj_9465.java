@@ -5,7 +5,7 @@ import java.util.*;
 개선해야됨
 */
 
-public class Main {
+public class boj_9465 {
 
   static int dp[][], cost[][];
 
