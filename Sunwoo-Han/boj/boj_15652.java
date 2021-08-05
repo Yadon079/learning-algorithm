@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
-public class boj_15650 {
+public class boj_15652 {
 
   public static int[] arr;
   public static int N, M;
@@ -36,7 +36,7 @@ public class boj_15650 {
 
     for (int i = at; i <= N; i++) {
       arr[depth] = i;
-      dfs(i + 1, depth + 1);
+      dfs(i, depth + 1);
     }
   }
 }
