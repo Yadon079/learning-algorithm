@@ -20,7 +20,7 @@ string solution(string new_id) {
     for(int i = 0; i < 10; i++){
         standard.push_back(start_num);
         start_num++;
-    }
+    } 
 
     /* 1. 대문자 -> 소문자 */
     for(int i = 0; i < new_id.length(); i++){
