@@ -1,4 +1,3 @@
-
 #include <string>
 #include <vector>
 #include <algorithm>
@@ -20,7 +19,6 @@ int getMaxNum(vector<vector<int>> v, int index){
     for(int i = 0; i < v.size(); i++){
         if(v[i][index] > maxNum){
             maxNum = v[i][index];
-            // [index][i];  [i][index];
         }
     }
     return maxNum;
@@ -31,21 +29,24 @@ bool findMinOrMax(vector<vector<int>> v, int index){
     int minNum, maxNum;
 
     for(int i = 1; i < v.size(); i++){
-        // minNum = min(minNum, v[index][i]);
         minNum = getMinNum(v, index);
-        // maxNum = max(maxNum, v[index][i]);
         maxNum = getMaxNum(v, index);
     }
 
     if(v[index][index] == minNum) {
-        if(count(v[index].begin(), v[index].end(), minNum) == 1) return true; 
+        for(int i = 0; i < v.size(); i++){
+            if(i != index && v[i][index] == minNum) return false;
+            if(i == v.size() - 1) return true;
+        }
     }
     else if(v[index][index] == maxNum){
-        if(count(v[index].begin(), v[index].end(), maxNum) == 1) return true;
+        for(int i = 0; i < v.size(); i++){
+            if(i != index && v[i][index] == maxNum) return false;
+            if(i == v.size() - 1) return true;
+        }
     }
     else return false;
 }
-
 
 
 
@@ -53,13 +54,13 @@ string solution(vector<vector<int>> scores) {
     string answer = "";
     int sum = 0, len = scores.size();
     float avg;
-    
+
     // 자기 자신이 평가한 점수가 min, max 라면 -1 로 
     for(int i = 0; i < len; i++){
         if(findMinOrMax(scores, i))  
             scores[i][i] = -1;
     }
-    
+
 
     for(int i = 0; i < len; i++){
         int div = len; // 나누기
@@ -77,6 +78,6 @@ string solution(vector<vector<int>> scores) {
         else if(avg >= 50) answer += "D";
         else answer += "F";
     }
-    
+
     return answer;
 }
