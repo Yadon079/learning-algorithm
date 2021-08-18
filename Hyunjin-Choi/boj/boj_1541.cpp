@@ -18,11 +18,11 @@ int main(){
             tempStr = "";
         }
     }
-
+    // 사이즈 -1 부터
     for(int i = v.size()-1; i >= 0; i--){
         if(v[i] <= 0 || i == 0){
             if(i == 0){
-                sum += v[i] + tempNum;
+                sum += v[i] + tempNum; 
             }
             else{
                 sum += v[i] - tempNum;
