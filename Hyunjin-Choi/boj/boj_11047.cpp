@@ -2,9 +2,8 @@
 // Ctrl + Alt + R : Exec
 
 #include <stdio.h>
-
-int main()
-{
+#include <iostream>
+int main(){
     int N, K, index, res = 0;
     scanf("%d %d", &N, &K);
     int arr[10] = {
