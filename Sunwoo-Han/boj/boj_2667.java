@@ -1,5 +1,8 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class boj_2667 {
   private static int dx[] = { 0, 0, 1, -1 };

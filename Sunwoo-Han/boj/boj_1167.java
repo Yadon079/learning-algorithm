@@ -39,6 +39,7 @@ public class boj_1167 {
     dfs(node, 0);
 
     System.out.println(max);
+    sc.close();
   }
 
   public static void dfs(int x, int len) {

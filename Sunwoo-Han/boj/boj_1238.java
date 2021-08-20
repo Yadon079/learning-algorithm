@@ -23,7 +23,7 @@ class Town implements Comparable<Town> {
   }
 }
 
-public class Main {
+public class boj_1238 {
 
   static final int INF = 987654321;
   static ArrayList<ArrayList<Town>> arrList, reverse_arrList;
