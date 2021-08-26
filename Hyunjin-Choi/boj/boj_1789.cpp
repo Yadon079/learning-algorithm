@@ -15,4 +15,5 @@ int main(){
         cout << num - 2;
     else
         cout << num-1;
+    
 }
